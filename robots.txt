@@ -1,0 +1,4 @@
+user-agent: *
+Disallow: /admin/
+
+Sitemap: http://localhost/s/seo/sitemap.xml

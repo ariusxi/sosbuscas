@@ -1,0 +1,117 @@
+.overlay{
+	border:1px solid #CC0;
+	margin: auto;
+	margin-top: 150px;
+	text-align:center;
+	width:50%;
+}
+.overlay h2, .overlay p{
+	color:#fff;
+}
+.modal-back{
+	display:none;
+	width:100%;
+	height:100%;
+	z-index:1000;
+	position:fixed;
+	background: rgba(0,0,0,0.5);
+}
+.modal-back	.close{
+	float:left;
+	color:#fff;
+	position:absolute;
+	margin-top:-25px;
+	margin-left:600px;
+}
+.modal-back .person-content{
+	float:left;
+	position: absolute;
+	width:600px;
+	height:350px;
+	background: #f1f1f1;
+	top:50%;
+	border-radius:5px;
+	left:50%;
+	margin-left:-300px;
+	margin-top:-225px;
+}
+.modal-back .person-content .person-details{
+	width:30%;
+	height:100%;
+	padding:20px;
+	float:left;
+	overflow-y: scroll;
+}
+.modal-back .person-content .person-image{
+	width:70%;
+	height:100%;
+	background: #000;
+	border-radius:0px 5px 5px 0px;
+	float:left;
+}
+.modal-back .person-content .person-image img{
+	margin: 70px auto;
+	float: none;
+	vertical-align: middle;
+	display: table;
+	width:200px;
+	height:200px;
+}
+.modal-back .fixed-bottom{
+	position:absolute;
+	background: #f1f1f1;
+	padding:20px;
+	width:100%;
+	overflow-y: scroll;
+	bottom:0;
+	left:0;
+	max-height:150px;
+}
+.card .card-image .card-title{
+	color:#ff0000;
+}
+.card .card-content{
+	padding-bottom:10px;
+}
+.card .card-content p{
+	margin-bottom:20px !important;
+}
+.card .title-person{
+	color:#ff0000;
+	text-transform: uppercase;
+}
+.no-border{
+	border:none;
+}
+
+@media screen and (max-width: 500px){
+	.modal-back	.close{
+		position:relative;
+		margin-left:0;
+	}
+	.modal-back .person-content{
+		margin-top:-235px;
+		width:100%;
+		left:0%;
+		margin-left:0;
+		position:relative;
+	}
+	.modal-back .person-content .person-details{
+		width:100%;
+		padding-top:0px;
+		height:100px;
+		padding:20px;
+		float:left;
+		overflow-y: scroll;
+	}
+	.modal-back .person-content .person-image{
+		width:100%;
+		height:300px;
+		background: #000;
+		border-radius:0px 5px 5px 0px;
+		float:left;
+	}
+	.modal-back .fixed-bottom{
+		height:150px;
+	}
+}

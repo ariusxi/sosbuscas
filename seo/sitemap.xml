@@ -1,0 +1,19 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemaps/0.9">
+	<url>
+		<loc>http://localhost/s/</loc>
+		<changefreq>always</changefreq>
+	</url>
+	<url>
+		<loc>http://localhost/s/home</loc>
+		<changefreq>always</changefreq>
+	</url>
+	<url>
+		<loc>http://localhost/s/sobre</loc>
+	</url>
+	<url>
+		<loc>http://localhost/s/contato</loc>
+	</url>
+	<url>
+		<loc>http://localhost/s/quemsomos</loc>
+	</url>
+</urlset>
